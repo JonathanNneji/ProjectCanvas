@@ -7,7 +7,7 @@ namespace ProjectCanvas
     {
         static void Main(string[] args)
         {
-            
+            AsyncTrial.RunClass();
         }
     }
 }
