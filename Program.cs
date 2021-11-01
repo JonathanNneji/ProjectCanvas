@@ -7,7 +7,13 @@ namespace ProjectCanvas
     {
         static void Main(string[] args)
         {
-            AsyncTrial.RunClass();
+            _ = AsyncTrial.BuildWallAsync();
+
+            for (int i = 0; i < 10; i++)
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("Im still here");
+            }
         }
     }
 }
